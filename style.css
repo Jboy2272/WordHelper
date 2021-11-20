@@ -148,3 +148,22 @@ body {
 #typingDiv {
   text-align: center;
 }
+
+#shuffleDiv {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 72%;
+  left: 35%;
+  z-index: 1;
+}
+
+#shuffle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
