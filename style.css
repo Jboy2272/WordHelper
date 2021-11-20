@@ -1,0 +1,150 @@
+body {
+  height: 798px;
+}
+
+.hex {
+    position: absolute;
+    transform: translate(-100%, -220%);
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 57px;
+    background-color: #e6e6e6;
+    margin: 28.87px 0;
+}
+
+.hex::before,
+.hex::after {
+    content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.hex::before {
+    bottom: 100%;
+    border-bottom: 28.87px solid #e6e6e6;
+}
+
+.hex::after {
+    top: 100%;
+    width: 0;
+    left: 0;
+    border-top: 28.87px solid #e6e6e6;
+  }
+
+
+  .center-hex {
+    position: absolute;
+    transform: translate(-100%, -220%);
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 57px;
+    background-color: #f7da21;
+    margin: 28.87px 0;
+}
+
+.center-hex::before,
+.center-hex::after {
+    content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.center-hex::before {
+    bottom: 100%;
+    border-bottom: 28.87px solid #f7da21;
+}
+
+.center-hex::after {
+    top: 100%;
+    width: 0;
+    left: 0;
+    border-top: 28.87px solid #f7da21;
+  }
+
+
+
+
+#hex-2 {
+    left: 110px;
+
+  }
+
+  #hex-3 {
+    left: -55px;
+    top: 95px;
+  }
+
+  #hex-4 {
+    left: 55px;
+    top: 95px;
+  }
+
+  #hex-5 {
+    left: 165px;
+    top: 95px;
+  }
+
+  #hex-6 {
+    top: 190px;
+  }
+
+  #hex-7 {
+    left: 110px;
+    top: 190px;
+  }
+
+#container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.hex-text {
+    resize: none;
+    text-align: center;
+    margin: auto;
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 94px;
+    height: 50px;
+    background-color: transparent;
+    border: transparent;
+}
+
+#confirmBtn {
+  text-align: center;
+  position: relative;
+  left: 2px;
+  top: 75%;
+}
+
+#confirmBtnContent {
+  margin: auto;
+  background-color: #3298dc;
+  color: #f14668;
+  border: transparent;
+  width: 90px;
+  height: 40px;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#typing {
+  font-size: 45px;
+  color: #000;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: auto;
+  top: 20%;
+  right: 48%;
+  position: absolute;
+}
+
+#typingDiv {
+  text-align: center;
+}
